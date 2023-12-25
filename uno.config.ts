@@ -1,4 +1,3 @@
-import { colors } from '@mui/material'
 import {
     defineConfig,
     presetAttributify,
@@ -25,9 +24,9 @@ export default defineConfig({
         presetTypography(),
         presetWebFonts({
             fonts: {
-                sans: 'DM Sans',
-                serif: 'DM Serif Display',
-                mono: 'DM Mono',
+                sans: 'Montserrat',
+                serif: 'Overpass',
+                mono: 'Averia Serif Libre',
             },
         }),
         presetTagify(),
