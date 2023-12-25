@@ -1,0 +1,79 @@
+:root {
+    /* Black shades */
+    --black-1: #000000; /* original black */
+    --black-2: #191919; /* slightly lighter black */
+    --black-3: #333333; /* light gray */
+    --black-4: #4C4C4C; /* medium gray */
+    --black-5: #666666; /* dark gray */
+    --black-6: #808080; /* gray */
+    --black-7: #999999; /* light silver */
+    --black-8: #B3B3B3; /* silver */
+    --black-9: #CCCCCC; /* very light silver */
+
+    /* Green shades */
+    --green-1: #009B3A; /* original green */
+    --green-2: #00AD4A; /* slightly lighter green */
+    --green-3: #00BF5A; /* light green */
+    --green-4: #00D16A; /* lime green */
+    --green-5: #00E37A; /* bright green */
+    --green-6: #00F58A; /* very bright green */
+    --green-7: #1AFF9A; /* pale green */
+    --green-8: #33FFAA; /* mint green */
+    --green-9: #4CFFBA; /* very pale green */
+
+    /* Yellow shades */
+    --yellow-1: #FED100; /* original yellow */
+    --yellow-2: #FEDB19; /* slightly lighter yellow */
+    --yellow-3: #FEE533; /* light yellow */
+    --yellow-4: #FEEF4C; /* lemon yellow */
+    --yellow-5: #FEF966; /* bright yellow */
+    --yellow-6: #FFFC80; /* very bright yellow */
+    --yellow-7: #FFFF99; /* pale yellow */
+    --yellow-8: #FFFFB3; /* very pale yellow */
+    --yellow-9: #FFFFCC; /* almost white */
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Black shades */
+        --black-1: #000000; /* original black */
+        --black-2: #0D0D0D; /* very dark gray */
+        --black-3: #1A1A1A; /* dark gray */
+        --black-4: #262626; /* medium dark gray */
+        --black-5: #333333; /* light gray */
+        --black-6: #404040; /* medium gray */
+        --black-7: #4D4D4D; /* dark silver */
+        --black-8: #595959; /* silver */
+        --black-9: #666666; /* light silver */
+
+        /* Green shades */
+        --green-1: #00662E; /* very dark green */
+        --green-2: #00783E; /* dark green */
+        --green-3: #008A4E; /* medium dark green */
+        --green-4: #009B3A; /* original green */
+        --green-5: #00AD4A; /* slightly lighter green */
+        --green-6: #00BF5A; /* light green */
+        --green-7: #00D16A; /* lime green */
+        --green-8: #00E37A; /* bright green */
+        --green-9: #00F58A; /* very bright green */
+
+        /* Yellow shades */
+        --yellow-1: #C6A300; /* very dark yellow */
+        --yellow-2: #D2B300; /* dark yellow */
+        --yellow-3: #DECA00; /* medium dark yellow */
+        --yellow-4: #FED100; /* original yellow */
+        --yellow-5: #FEDB19; /* slightly lighter yellow */
+        --yellow-6: #FEE533; /* light yellow */
+        --yellow-7: #FEEF4C; /* lemon yellow */
+        --yellow-8: #FEF966; /* bright yellow */
+        --yellow-9: #FFFC80; /* very bright yellow */
+    }
+}
+
+/* Path: assets/css/variables.css */
+
+:root {
+    /* Dark mode colors */
+    --black-1-dark: calc(255 - var(--black-1));
+    --black-2-dark: calc(255 - var(--black-2));
+}

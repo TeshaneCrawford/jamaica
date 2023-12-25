@@ -1,6 +1,6 @@
 import process from 'node:process'
 import type { ModuleOptions } from '@vite-pwa/nuxt'
-import { appName, appDescription } from '~/shared/constants/metaData'
+import { appName, appDescription } from '../shared/constants/metaData'
 
 const scope = '/'
 
