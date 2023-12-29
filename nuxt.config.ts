@@ -16,15 +16,16 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@unocss/nuxt",
     "@vite-pwa/nuxt",
-    "@nuxtjs/fontaine",
     // "@nuxtjs/supabase"
+    "@nuxtjs/fontaine",
+    "@nuxt/content"
   ],
 
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
     // but missing on offline, disabling extraction it until fixed
     payloadExtraction: false,
-    inlineSSRStyles: false,
+    // inlineSSRStyles: false,
     renderJsonPayloads: true,
     typedPages: true,
   },
